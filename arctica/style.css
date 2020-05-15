@@ -1,0 +1,745 @@
+*{margin: 0; padding: 0;} 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul li{
+	list-style: none;
+}
+
+.font-roboto{
+	font-family: 'Roboto Slab', serif;
+}
+.font-oswald{
+	font-family: 'Oswald', sans-serif;
+}
+.font-dancingScript{
+	font-family: 'Dancing Script', cursive;
+}
+/*topheader*/
+.topheader{
+	height: 40px;
+	background-color: #222222;
+	line-height: 40px;
+}
+.topheader .mangxh a {
+	color: #dddddd;
+	font-size: 12px;
+	padding: 0px 13px;
+}
+.mangxh a i:hover{
+	color: orange;
+}
+.mangxh a:nth-child(1){
+	padding-left: 0px;
+}
+
+.datban{
+	color: #dddddd;
+	float: left;
+	border-left: 1px solid #434343;
+	margin-left: 17px;
+	padding-left: 25px;
+	font-size: 13px;
+	font-family: 'Roboto Slab', serif;
+}
+.datban.openingtop.float-sm-right{
+	border-right: 1px solid #434343;
+	padding-right: 26px;
+}
+/*hết topheader*/
+
+/*phần  thanh menu*/
+a.nav-link{
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 0px 15px;
+}
+.nav.navbar-nav.float-sm-right{
+	margin-left: 150px;
+}
+.menu .nav-item a.nav-link:hover{
+	color: orange;
+}
+.datbanmenu a.nav-link.btn.btn-warning{
+	border-radius: 0px;
+	font-size: 13px;
+	color: black;
+	width: 150px;
+	height: 44px;
+	line-height: 44px;
+	padding: 0;
+	transform: translateY(-3px);
+}
+/*hết thanh menu*/
+/*phần slide*/
+/*video: xử lý CSS cho phần slide*/
+.slide{
+	width: 100%;
+}
+.chu{
+	position: absolute;
+	color: #fff;
+	margin-left: 14%;
+	background: url(Images/icon1.png) no-repeat;
+	padding-top: 155px;
+	top: 40px;
+}
+.chu h2{
+	font-size: 50px;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+.chu p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	width: 625px;
+}
+a.nutslide.btn.btn-warning{
+	background: #feb518;
+	color: black;
+	border-radius: 0px;
+	width: 165px;
+	height: 50px;
+	line-height: 50px;
+	margin:0;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
+}
+
+/*hết phần slide*/
+*{margin: 0; padding: 0;} 
+
+/*phần dịch vụ*/ 
+/*video: xử lý Css cho 3 khối dịch vụ 09:27*/
+.dichvu {
+	margin-top: 121px;
+} 
+.dichvu h3 a {
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	color: #333;
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.dichvu p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #777;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	margin: 0;
+}
+a.readmore {
+	background: #feb518;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	padding: 10px 27px;
+	/*display: inline-block; */
+	font-weight: 500;
+	margin-top: 30px;
+	box-sizing: border-box;
+
+}
+a.readmore:hover{
+	background: #fff;
+	border: 2px solid #feb518;
+	/*box-sizing: border-box;*/
+}
+/*hết phần dịch vụ*/
+/*phần khoimenu*/           /*video: xử lý css cho khối tiêu đề menu 3:03*/
+.khoimenu{
+	margin-top: 100px;
+	background: url(Images/khoimenu2.jpg);
+	background-size: cover;
+	color: white;
+}
+.tieudekhoimenu{
+	display: table;
+	margin: auto;
+	height: 550px;
+} 
+.tieudekhoimenu .container{
+	display: table-cell;
+	vertical-align: middle;
+}
+.tieudephu{
+	font-family: 'Dancing Script', cursive;
+	font-size: 38px;
+	color: #feb518;
+	font-weight: 700;
+}
+.tieudechinh{
+	font-size: 36px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+/*hết khoimenu*/
+
+/*phần thucdonct  loc menu*/       /*video xử lý phần css cho khối thực đơn chi tiết 17:20*/
+/*phần noidungct*/
+.motmon {
+	height: 120px;
+} 
+
+.anhmon {
+	position: relative;
+	width: 100%;
+}
+.tagnew {
+	position: absolute;
+	top: 0px;
+	background: #feb518;
+	font-size: 11px;
+	font-family: 'Roboto Slab', serif;
+	padding: 2px 7px;
+}
+*{margin: 0; padding: 0;} 
+
+.tieudect.text-xs-center {
+	margin-bottom: 120px;
+}
+.noidungct .row .row [class*=col-] {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.tenmon .tren {
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	color: #333333;
+	border-bottom: 1px dotted black;
+	margin-bottom: 11px;
+}
+b.ten {
+	background: white;
+	transform: translateY(4px);
+	display: inline-block;
+	padding-right: 4px;
+}
+span.float-xs-right {
+	transform: translateY(4px);
+	background: white;
+}
+.tenmon .duoi{
+	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
+}
+.tenmon{
+	transform: translateX(-70px);
+}
+/*phần tieudect   - cho dịch lên*/
+.tieudect a{
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	text-decoration: none;
+	color: #fefefe;
+	padding: 0px 18px;
+}
+.thucdonct{
+	transform: translateY(-40px);
+}
+/*.tieudect a:focus{
+	color: #feb518;
+	}*/
+	a.active{
+		color: #feb518;
+	}
+	/*hết thucdonct*/
+
+	/*phần slidemonan*/
+	.sanpham {
+		width: 20%;
+		float: left;
+		box-sizing: border-box;
+		padding-left: 7px;
+		padding-right: 7px;
+	} 
+	img.anhspslide {
+		width: 100%;
+	}
+	.slidemonan {
+		margin-top: 30px;
+		background: url(Images/bg_slidemonan.jpg);
+		background-size: cover;
+	}
+	.row .col-sm-12 {
+		font-size: 24px;
+		color: #fff;
+		padding-top: 26px;
+		padding-left: 184px;
+		font-family: 'Roboto Slab', serif;
+	}
+	div#slidemonanduoi {
+		padding-top: 22px;
+		padding-bottom: 55px;
+	}
+	.tensp {
+		font-size: 17px;
+		font-family: 'Oswald', sans-serif;
+		color: #fff;
+		padding-top: 13px;
+	} 
+	.ten {
+		padding-left: 10px;
+	}
+	.tencongthuc {
+		font-family: 'Roboto Slab', serif;
+		font-size: 14px;
+		color: #ecc0c0;
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+	*{margin: 0; padding: 0;} 
+	/* xử lý nút click left right*/
+	.slidemonan a.left.carousel-control {
+		position: absolute;
+		color: black;
+		width: 33px;
+		height: 33px;
+		background: white;
+		top: -35px;
+		left: 859px;
+	}
+
+	.slidemonan a.right.carousel-control {
+		position: absolute;
+		background: white;
+		width: 33px;
+		height: 33px;
+		top: -35px;
+		color: black;
+		right: 201px;
+	}
+	.slidemonan a.right.carousel-control:hover, .slidemonan a.left.carousel-control:hover {
+		background: #f3a807;
+	} 
+	.slidemonan a.right.carousel-control:focus, .slidemonan a.left.carousel-control:focus {
+		background: #f3a807;
+	} 
+	ol.carousel-indicators{
+		transform: translateY(22px);
+	}
+	/*hết slidemonan*/
+
+	/*phần gioithieudaubep*/
+
+	.gioithieudaubep {
+		/*margin-top: 107px;*/
+		padding-top: 107px;
+		padding-bottom: 80px;
+	} 
+	.gioithieudaubep img.img-fluid {  
+		width: 100%;
+		border-radius: 50%;
+	}
+	.col-sm-7.push-sm-1 {
+		/*margin-top: 158px;*/
+		padding-top: 34px;
+	}
+	.thongtin h2 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		color: #333333;
+	}
+
+	.thongtin span {
+		font-size: 31px;
+		color: #feb518;
+		font-family: 'Dancing Script', cursive;
+	}
+
+	.thongtin p {
+		font-size: 14px;
+		font-family: 'Roboto Slab', serif;
+		color: #777777;
+		line-height: 26px;
+		padding-top: 18px;
+	}
+	*{margin: 0; padding: 0;} 
+
+	a.icondb {
+		width: 37px;
+		height: 37px;
+		background: #333;
+		color: #fff;
+		display: inline-block;
+		text-align: center;
+		line-height: 37px;
+		border-radius: 5px;
+		/* padding: 0px 5px; */
+		margin: 0px 5px;
+	} 
+	.daubepcontact {
+		margin-top: 26px;
+	}
+	/*hết phần gioithieudaubep*/
+
+	/*phần slogan_home*/
+	*{margin: 0; padding: 0;} 
+
+	.slogan_home {
+		padding: 180px 0px;
+		background: url(Images/khoimenu1.png) no-repeat center;
+		background-color: #3e3e3e;
+		background-size: contain;
+	} 
+	.slogan_home h3 {
+		font-size: 38px;
+		color: #feb518;
+		font-family: 'Dancing Script', cursive;
+	}
+	.slogan_home span {
+		font-size: 36px;
+		color: #fff;
+		font-family: 'Roboto Slab', serif;
+	}
+
+	/*hết slogan_home*/
+
+	/*phần footertop*/
+	*{margin: 0; padding: 0;} 
+
+	.motdong {
+		padding-top: 5px;
+	}
+
+	.motdong i{
+		margin-right: 17px;
+		color: #888888;
+	}
+
+	.footertop {
+		background: #151515;
+		color: #888888;
+		font-size: 14px;
+		padding-top: 46px;
+		padding-bottom: 46px;
+	} 
+	.col-sm-2.push-sm-1.cot2 {
+		padding-top: 33px;
+	}
+	.col-sm-3.cot3 {
+		padding-top: 33px;
+		padding-left: 130px;
+	}
+	.col-sm-3.cot4{
+		padding-top: 33px;
+	}
+	.cot2 ul, .cot3 ul ,.cot4 ul{
+		padding-top: 16px;
+	}
+
+	.cot2 h2, .cot3 h2, .cot4 h2{
+		color: #cccccc;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	.cot2 li, .cot3 li {
+		line-height: 33px;
+	}
+	.cot2 li a, .cot3 li a{
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.footerbotton{
+		height: 91px;
+		background-color: #111111;
+	}
+	.footerbotton .text{
+		text-align: center;
+		line-height: 91px;
+		color: #999999;
+	}
+	.col-sm-3.cot4{
+		padding-left: 50px;
+	}
+	.cot4 .opening{
+		padding-top: 4px;
+	}
+	.opening .motdong{
+		line-height: 43px;
+	}
+	.opening .note{
+		padding-top: 10px;
+	}
+	.cot3 .khoi{
+		padding-top: 19px;
+	}
+	.cot3 .motdong h3{
+		font-size: 14px;
+		color: #cccccc;
+	}
+	.cot3 .motdong p{
+		color: #666666;
+		font-size: 13px;
+	}
+	.cot3 .motdong h3 a{
+		text-decoration: none;
+		color: inherit;
+	}
+	.cot2 li:hover{
+		color: white;
+		transition: 0.3s;
+	}
+
+	/*hết phần footertop*/
+	/*Responsive ------------------------------responsive: Phone------------------------*/
+	@media (max-width: 576px){
+		/*phan top header*/
+		.topheader{
+			height: auto;
+		}
+		.datban{
+			border: none;
+			text-align: center;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		.datban.openingtop{
+			display: none;
+		}
+		/*phan menu*/
+		.nav a.nav-link{
+			text-align: center;
+			padding: 13px 0px;
+			margin: 0;
+			display: block;
+			border-bottom: 1px solid gray;
+		}
+		.nav-item.datbanmenu a.nav-link.btn.btn-warning{
+			margin-top: 10px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.nav.navbar-nav.float-sm-right{
+			margin: auto;
+		}
+		/*phần slide*/
+
+		a.nutslide.btn.btn-warning {
+			width: 68px;
+			height: 24px;
+			font-size: 10px;
+			line-height: 24px;
+		}
+		.chu p {
+		/*font-size: 11px;
+		width: 318px;*/
+		display: none;
+	}
+	.chu h2 {
+		font-size: 17px;
+	}
+	.chu {
+		padding: 0;
+		top: 35px;
+		background: none;
+	}
+	/*phần dịch vụ*/
+	.dichvu {
+		margin-top: 60px;
+	} 
+	.dichvu h3 a {
+		font-size: 18px;
+		padding-top: 20px;
+		padding-bottom: 3px;
+	}
+	.dichvu p {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	a.readmore {
+		padding-top: 10px;
+		margin-bottom: 15px;
+	}
+	.row .col-sm-4{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	/*phần khoimenu*/
+	.khoimenu{
+		margin-top: 40px;
+	}
+	.tieudephu{
+		font-size: 34px;
+	}
+	.tieudechinh{
+		font-size: 21px;
+	}
+	/*phần thucdonct*/
+	.tenmon{
+		transform: translateX(-30px);
+	}
+
+	/*phần slidemonan*/
+
+	.sanpham {
+		width: 19%;
+	} 
+	.slidemonan {
+		margin-top: 0px;
+	}
+	.row .col-sm-12 {
+		padding-top: 26px;
+		padding-left: 45px;
+	}
+	div#slidemonanduoi {
+		padding-bottom: 48px;
+	}
+	.ten {
+		padding-left: 0px;
+	}
+	.tencongthuc {
+		display: none;
+	}
+	.tensp{
+		font-size: 14px;
+	}
+	/* xử lý nút click left right*/
+	.slidemonan a.left.carousel-control {
+		width: 28px;
+		height: 28px;
+		left: 298px;
+	}
+	.slidemonan a.right.carousel-control {
+		width: 28px;
+		height: 28px;
+		right: 12px;
+	}
+	ol.carousel-indicators{
+		transform: translateY(19px);
+	}
+	.carousel-item {
+		padding-left: 17px;
+	}
+	/*hết phần slidemonan*/
+
+	/*phần gioithieudaubep*/
+	.thongtin {
+		text-align: center;
+	}
+	.daubepcontact{
+		text-align: center;
+	}
+	.gioithieudaubep{
+		padding-top: 70px;
+	}
+	/*hết phần gioithieudaubep*/
+	/*phần footer*/
+	.footer .cot2, .cot4{
+		text-align: center;
+	}
+
+	/*hết phần footer*/
+}
+
+/*-----------------------------------responsive cho ipad-----------------------------------------------*/
+@media  (min-width: 768px) and (max-width: 1170px) {
+	/*phần topheader*/
+	.topheader .mangxh a {
+		padding: 0px 8px;
+	}
+	.datban{
+		padding-left: 10px;
+	}
+	/*phần  thanh menu*/
+	a.navbar-brand{
+		width: 100%;
+		display: block;
+	}
+	.nav.navbar-nav.float-sm-right{
+		margin: 0px;
+	}
+	a.nav-link{
+		margin-top: 0px;
+		padding: 0px 8px;
+	}
+	.datbanmenu a.nav-link.btn.btn-warning{
+		width: 110px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.nav.navbar-nav.float-sm-right{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	/*phần slide*/
+	.chu{
+		padding-top: 140px;
+		top: 10px;
+	}
+	.chu h2{
+		font-size: 22px;
+	}
+	.chu p{
+		display: none;
+	}
+	a.nutslide.btn.btn-warning{
+		width: 100px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	/*	phần dịch vụ */
+	.dichvu {
+		margin-top: 60px;
+	} 
+	/*phần khoimenu     */     
+	.khoimenu{
+		margin-top: 60px;
+	}
+	/*phần thucdonct*/
+	.tenmon{
+		transform: translateX(-20px);
+		/*padding-left: 50px;*/
+	}
+
+	/*phần slidemonan*/
+	.tensp{
+		font-size: 17px;
+	}
+	.tencongthuc {
+		font-family: 'Roboto Slab', serif;
+		font-size: 14px;
+		color: #ecc0c0;
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+	*{margin: 0; padding: 0;} 
+	/* xử lý nút click left right*/
+	.slidemonan a.left.carousel-control {
+		left: 579px;
+	}
+
+	.slidemonan a.right.carousel-control {
+		right: 50px;
+	}
+	div#slidemonanduoi {
+		padding-bottom: 48px;
+	}
+	ol.carousel-indicators{
+		transform: translateY(20px);
+	}
+	/*phần gioithieudaubep*/
+	.gioithieudaubep{
+		padding-top: 75px;
+	}
+	.col-sm-7.push-sm-1{
+		padding-top: 0px;
+	}
+	/*hết phần gioithieudaubep*/
+}
+
+/*het responsive*/
